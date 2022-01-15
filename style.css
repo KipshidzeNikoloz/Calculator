@@ -12,14 +12,22 @@
     height: 600px;
     flex-wrap: wrap;
     background-color: #7777;
+    padding: 10px;
 }
 
 .display {
-    font-size: 20px;
+    font-size: 40px;
     width: 100%;
     background-color: rgb(41, 41, 41);
     height: 25%;
+    text-align: right;
+    color: whitesmoke;
+
 }
+.display p {
+    padding: 10px;
+}
+
 .column1 {
     height: 70%;
     flex: 3;
