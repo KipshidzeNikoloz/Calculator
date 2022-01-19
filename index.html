@@ -14,6 +14,7 @@
             <div class = 'fullCalculator'>
                 <div class = 'display'>
                     <p class = 'numberDisplay'></p>
+                    <p class = 'lastNumberDisplay'></p>
                 </div>
                 <div class = 'column1'>
                     <div class = 'remove'>
@@ -30,15 +31,16 @@
                         <button class = 'number' data-num ='7'>7</button>
                         <button class = 'number' data-num ='8'>8</button>
                         <button class = 'number' data-num ='9'>9</button>
-                        <button class = 'number' data-num ='0'>0</button>
+                        <button class = 'number' data-num ='0' id = 'zero'>0</button>
+                        <button class = 'decimal' data-num ='.' id = 'decimal'>.</button>    
                     </div>
             </div>
             <div class = 'column2'>
                 <div class = 'operators'>
-                    <button class = 'addition'>+</button>
-                    <button class = 'subtraction'>-</button>
-                    <button class = 'multiplication'>*</button>
-                    <button class = 'division'>/</button>
+                    <button class = 'operator' id = 'addition'>+</button>
+                    <button class = 'operator' id = 'subtraction'>-</button>
+                    <button class = 'operator' id = 'multiplication'>*</button>
+                    <button class = 'operator' id = 'division'>÷</button>
                     <button class = 'enter'>=</button>
                 </div>
             </div>
@@ -48,3 +50,4 @@
         <script src = 'script.js';></script>
     </body>
     </html>
+
