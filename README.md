@@ -4,10 +4,4 @@ A Calculator project that
 3. multiplies
 4. divides
 
-
-//Extra//
-
-1. add decimals
-2. add backspace
-3. add keyboard
-4. make it look nice
+[Check out the Demo]{https://kipshidzenikoloz.github.io/Calculator/}
