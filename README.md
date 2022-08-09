@@ -4,4 +4,6 @@ A Calculator project that
 3. multiplies
 4. divides
 
-{Check out the Demo}[https://kipshidzenikoloz.github.io/Calculator/]
+# Check out the Demo
+
+https://kipshidzenikoloz.github.io/Calculator/
